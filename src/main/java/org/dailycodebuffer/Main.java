@@ -15,10 +15,10 @@ public class Main {
 
         Doctor doctor = context.getBean(Doctor.class);
         doctor.assist();
-        doctor.setQualification("FCPS");
-        System.out.println(doctor);
-
-        Doctor doctor1 = context.getBean(Doctor.class);
-        System.out.println(doctor1);
+//        doctor.setQualification("FCPS");
+//        System.out.println(doctor);
+//
+//        Doctor doctor1 = context.getBean(Doctor.class);
+//        System.out.println(doctor1);
     }
 }
